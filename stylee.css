@@ -59,8 +59,11 @@ h2 {
 }
 
 .profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #2c3e50;
+  border: 3px solid #2c3e50;
 }
 
 .container2 {
@@ -106,3 +109,4 @@ footer {
   background-color: #f0f0f0 !important;
   transition: background-color 1.5s ease;
 }
+
